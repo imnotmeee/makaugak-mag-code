@@ -4,16 +4,24 @@ import "@styles/globals.css";
 
 export const metadata = {
   title: "Home",
-  description: "Welcome to Next.js Boilerplate",
-  url: "https://next-boilerplate.vercel.app/",
-  image: "https://next-boilerplate.vercel.app/logo.png",
+  description: "Welcome to Mobile Legends",
+  url: "https://github.com/imnotmeee",
+  image: `${process.env.HOST}/assets/images/33.jpg`,
   twitterUsername: "@next_boilerplate",
 };
 
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
-      <head />
+      <head>
+        <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:url" content={metadata.url} />
+        <meta property="og:image" content={metadata.image} />
+        <meta property="og:type" content="website" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:site" content={metadata.twitterUsername} />
+      </head>
       <body>
         <Provider>
           <div className="main">
