@@ -1,9 +1,9 @@
 import Feed from "@components/Feed";
 
-export const revalidate = 10;
-
 const Home = async () => {
-  const response = await fetch(`${process.env.HOST}/api/prompt`);
+  const response = await fetch(`${process.env.HOST}/api/prompt`, {
+    cache: "no-store",
+  });
 
   return (
     <section className="w-full flex-center flex-col">
