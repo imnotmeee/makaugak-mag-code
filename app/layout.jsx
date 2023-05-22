@@ -6,7 +6,7 @@ export const metadata = {
   title: "Home",
   description: "Welcome to Mobile Legends",
   url: "https://github.com/imnotmeee",
-  image: `${process.env.HOST}/assets/images/6.jpg`,
+  image: `${process.env.HOST}/assets/images/meme.jpg`,
   twitterUsername: "@next_boilerplate",
 };
 
