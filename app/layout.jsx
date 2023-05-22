@@ -3,7 +3,7 @@ import Provider from "@components/Provider";
 import "@styles/globals.css";
 
 export const metadata = {
-  title: "Home",
+  title: "nEXTjs🔥",
   description: "Welcome to Mobile Legends",
   url: "https://github.com/imnotmeee",
   image: `${process.env.HOST}/assets/images/meme.jpg`,
