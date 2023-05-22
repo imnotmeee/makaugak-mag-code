@@ -4,7 +4,7 @@ import "@styles/globals.css";
 
 export const metadata = {
   title: "nEXTjs🔥",
-  description: "Welcome to Mobile Legends",
+  description: "Nextjs for next project.",
   url: "https://github.com/imnotmeee",
   image: `${process.env.HOST}/assets/images/meme.jpg`,
   twitterUsername: "@next_boilerplate",
