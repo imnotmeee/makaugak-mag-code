@@ -2,7 +2,7 @@ import Feed from "@components/Feed";
 
 const fetchPosts = async () => {
   const response = await fetch(`${process.env.HOST}/api/prompt`, {
-    cache: "no-cache",
+    cache: "force-cache",
     next: {
       revalidate: 20,
     },
